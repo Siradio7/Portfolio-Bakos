@@ -36,7 +36,7 @@
 }
   
 .image-container:hover .profile-image {
-  transform: scale(1.1); /* Zoom in on hover */
+  transform: scale(1.1);
 }
   
 .btn-gradient {
@@ -118,7 +118,7 @@
   
 /* Css du component Home */
 .custom-font {
-  font-family: 'Arial', sans-serif; /* Remplace 'Arial' par la police de ton choix */
+  font-family: 'Arial', sans-serif;
   font-style: italic;
 }
 

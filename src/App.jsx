@@ -6,7 +6,7 @@ import Project from './components/Project';
 import Contact from './components/contact';
 import Navbare from './components/Navbar';
 import Footer from './components/Footer';
-// Importez vos autres composants ici
+
 
 const routes = [
   { 
