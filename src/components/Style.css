@@ -1,0 +1,246 @@
+/* Css du Navbar */
+
+.nav-link-hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 18px;
+  color: white;
+  transition: color 0.5s ease-in-out;
+}
+  
+.nav-link-hover:hover {
+  color: #cccccc;
+  transition: color 0.5s ease-in-out;
+  border-radius: 10%;
+}
+
+.Navbar-bg {
+  background: linear-gradient(to right, #202836, #ff007e);
+}
+
+.about-section {
+  padding: 50px 0;
+}
+  
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+  
+.profile-image {
+  width: 100%;
+  transition: transform 0.5s ease;
+}
+  
+.image-container:hover .profile-image {
+  transform: scale(1.1); /* Zoom in on hover */
+}
+  
+.btn-gradient {
+  background: linear-gradient(to right, #202836, #ff007e);
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: background 0.5s ease;
+}
+  
+.btn-gradient:hover {
+  background: linear-gradient(to right, #ff007e, #202836);
+  color: white;
+}
+  
+@media (max-width: 768px) {
+  .about-section {
+    text-align: center;
+  }
+  
+  .image-container {
+    margin-bottom: 20px;
+  }
+}
+
+/* Css du component footer */
+.body {
+  background-color: #0a0f14;
+  color: #ffffff;    
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px; 
+}
+
+.social-links a {
+  transition: color 0.3s; 
+}
+
+.social-links a:hover {
+  color: linear-gradient(to right, #202836, #ff007e);
+}
+
+.footer {
+  margin-top: 30px;
+  color: #cccccc;
+}
+.footer a {
+  color: #8a2be2;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #a020f0;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+.logo h1 {
+  font-size: 24px;
+  margin: 0;
+}
+  
+/* Css du component Home */
+.custom-font {
+  font-family: 'Arial', sans-serif; /* Remplace 'Arial' par la police de ton choix */
+  font-style: italic;
+}
+
+/* Css du component Home */
+
+.home-section {
+  color: #05364d;
+  padding: 100px 50px;
+  margin-top: 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+.small-text {
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.home-section h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.lead {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.social-icons a {
+  color: #8e939d;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color:#202836;
+}
+
+.profile-image {
+  max-width: 80%;
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-10px);
+  }
+}
+
+@media (max-width: 768px) {
+  .home-section {
+      padding: 50px 0;
+  }
+
+  .profile-image {
+      max-width: 60%;
+      margin-top: 20px;
+  }
+}
+
+/* Css du compponent service */
+
+.service-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  background-color: #c204dc;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.service-icon img {
+  width: 400px;
+  height: 300px;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover .service-icon img {
+  transform: rotate(360deg);
+}
+
+.card-title {
+  
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #21201f;
+}
+
+/* Css du component contact */
+
+.container {
+  padding-top: 150px;
+  padding-bottom: 100px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+form input,
+form textarea {
+  transition: box-shadow 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus {
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+.hauteur {
+  margin-bottom: 120px;
+}
